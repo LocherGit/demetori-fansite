@@ -1,0 +1,378 @@
+.parallax {
+}
+
+body{
+	background-color:white;
+	color:black;
+	font-size: 25px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+	color: black;
+}
+
+a {
+    color: black;
+}
+
+table {
+	max-width: 100%;
+}
+
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: center;
+}
+
+td {
+	text-align: left;
+}
+
+table tr td img {
+	height: 300px;
+	width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+	list-style-type: none;
+	background-color: white;
+}
+
+ol {
+	list-style-type: none;
+}
+
+li {
+	width: 100%;
+	font-size: 25px;
+}
+
+li a {
+	display: block;
+	color: black;
+
+	padding: 14px 16px;
+	text-decoration: none;
+	width:100%;
+	margin-left: -33px;
+}
+
+li a:hover:not(.active) {
+	background-color: black;
+	color: white;
+}
+
+.active {
+	background-color: gray;
+	text-align:center;
+	color: white;
+}
+
+.about > li > a{
+	width: 250px;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: block;
+	padding: 14px 16px;
+	text-align:right;
+	text-decoration: none;
+	border-left: 1px solid white;
+	border-top: 1px solid white;
+	margin:0 auto;
+	background-color: #211e1d;
+}
+
+.top > a{
+	
+	font-size: 25px;
+	float: left;
+	width: 250px;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: block;
+	padding: 14px 16px;
+	text-align:left;
+	text-decoration: none;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	margin:0 auto;
+	background-color: #211e1d;
+}
+
+.toptop > a{
+	
+	font-size: 25px;
+	width: 250px;
+	list-style-type: none;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	padding: 14px 16px;
+	text-align:center;
+	text-decoration: none;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	margin:0 auto;
+	background-color: white;
+	margin: auto;
+	border: 1px solid black;
+}
+
+.next {
+	width: 60px;
+	height: 60px;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: block;
+	text-decoration: ;
+	margin:0 auto;
+	text-align:left;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.previous {
+	float: left;
+	width: 60px;
+	height: 60px;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: block;
+	text-align:left;
+	text-decoration: none;
+	font-weight: bold;
+	margin:0 auto;
+	font-size: 25px;
+}
+
+.previous:hover, .next:hover {
+	opacity: 1.0;
+	border: 1px dashed white;
+}
+
+.spalteLinks {
+}
+
+.spalteRechts {
+}
+
+#indexHeight {
+}
+
+#albumBodyWidth {
+}
+
+p {
+}
+
+h1 {
+}
+
+h2 {
+}
+
+.introduction {
+}
+
+.headline { 
+}
+		
+.article {
+}
+
+.foot {
+}
+
+div img { 
+}
+
+p img {
+	height: 20px;
+	width: 20px;
+}
+
+.dropdown {
+}
+
+.dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
+}
+
+.desc {
+}
+
+.covers {
+}
+
+.albumFrame {
+}
+
+.noTableborder {
+	border: none;
+}
+
+.noTableborderText {
+	border: none;
+	vertical-align: top;
+	color: black;
+	
+}
+
+.bannerResize {
+	height: 60px;
+	width: 240px;	
+}
+
+bannerResize {
+}
+
+.imageResize {
+}
+
+.specialSpacing {
+	width: 100px;
+	height:10px;
+}
+
+.bandText {
+}
+
+#aboutHeadline {
+}
+
+#specialh1 {
+}
+
+.experimentalAboutFrame2 {
+}
+
+.experimentalAboutFrame {
+}
+
+#aboutBody {
+}
+
+.aboutText {
+}
+
+.logoResize {
+}
+
+.closeAbout{
+	width: 90px;
+	height: 60px;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	bottom: 12px;
+	right: 12px;
+	display: block;
+	font-weight: bold;
+	list-style-type: none;
+	border: 1px solid red;
+}
+
+iframe {
+	opacity: 1;
+}
+
+.leftStyle > a{
+	width: 200px;
+	height: 45px;
+	float: left;
+	list-style-type: none;
+	padding: 0;
+	bottom: 5px;
+	left: 290px;
+	display: block;
+	list-style-type: none;
+	border: 1px solid white;
+	text-align: center;
+	line-height: 45px;
+	font-size: 25px;
+	text-decoration:none;
+	border: 1px solid black;
+}
+
+.rightStyle > a{
+	width: 200px;
+	height: 45px;
+	float: right;
+	list-style-type: none;
+	padding: 0;
+	bottom: 5px;
+	right: 290px;
+	display: block;
+	list-style-type: none;
+	border: 1px solid white;
+	text-align: center;
+	line-height: 45px;
+	font-size: 25px;
+	text-decoration:none;
+	border: 1px solid black;
+}
+
+audio {
+	width: 100%; 
+}
+
+.imageBuying {
+	width:22%;
+	height:22%;
+}
+
+.imageInfo {
+	width: 22%;
+	height:150px;
+}
+
+.imageInfo2 {
+	width: 150px;
+	height:150px;
+}
+
+.support {
+}
+
+#sup {
+	height:850px;
+}
