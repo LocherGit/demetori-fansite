@@ -6,3 +6,7 @@ UPDATE: LINK IS NO LONGER ACTIVE.
 
 Due to the fact that the website was not maintained since its creation in 2017,<br>
 the content found on the website mockup may be heavily outdated.
+
+![Homepage](git_demetori01.jpg)
+
+![Discography](git_demetori02.jpg)
